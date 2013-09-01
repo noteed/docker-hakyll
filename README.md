@@ -3,8 +3,9 @@
 This repository holds a Dockerfile (to create a Docker image) to clone and
 build a Hakyll website.
 
-You can build your own image or use `noteed/hakyll` which was built with this
-Dockerfile.
+You can build your own image or use
+[`noteed/hakyll`](https://index.docker.io/u/noteed/hakyll/) which was built
+with this Dockerfile.
 
 When the image is run, it will clone a Git repository, enter it, and run the
 Hakyll `site.hs` executable the repository is supposed to contain. The

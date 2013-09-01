@@ -1,3 +1,7 @@
+# Clone and build a Hakyll site
+#
+# See https://github.com/noteed/docker-hakyll.
+
 from ubuntu
 maintainer Vo Minh Thu <noteed@gmail.com>
 
