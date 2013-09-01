@@ -1,0 +1,6 @@
+#! /usr/bin/env bash
+
+git clone $1 clone || exit 1
+cd clone
+ghc --make -fforce-recomp site.hs
+./site build
